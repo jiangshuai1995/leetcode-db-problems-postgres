@@ -50,8 +50,8 @@ select a.name,a.salary,b.name  from employee a  left join department b on a.depa
 where (departmentid,salary) in
 (
     select distinct departmentId,salary from
-        (select departmentId,salary,dense_rank() over(partition by  departmentId order by salary desc) as rank from employee) as tmp  
-            where rank<4
+        (select departmentId,salary,dense_rank() over(partition by  departmentId order by salary desc)
+         as rank from employee) as tmp  where rank<4
 );
 ```
 ### Result

@@ -32,12 +32,16 @@ For example, given the above Logs table, 1 is the only number that appears conse
 
 - join
 ```sql
-select distinct  a.num  as ConsecutiveNums from Logs a left join Logs b on a.Id = b.Id-1 left join Logs c on a.id = c.id-2 where a.num = b.num AND a.num= c.num;
+select distinct  a.num  as ConsecutiveNums from 
+    Logs a left join Logs b on a.Id = b.Id-1 left join Logs c on a.id = c.id-2 
+    where a.num = b.num AND a.num= c.num;
 ```
 
 - where
 ```sql
-select distinct a.num as ConsecutiveNums  from logs a,logs b,logs c where a.id=b.id-1 and a.id=c.id-2 and a.num=b.num and a.num=c.num;
+select distinct a.num as ConsecutiveNums  from 
+    logs a,logs b,logs c 
+    where a.id=b.id-1 and a.id=c.id-2 and a.num=b.num and a.num=c.num;
 ```
 
 有人说执行join会更快，但实际执行时间基本无差别
