@@ -1,0 +1,11 @@
+drop table if Exists employee;
+drop table if Exists department;
+Create table employee (id int, name varchar(255), salary int, departmentid int);
+Create table department (id int, name varchar(255));
+insert into employee (id, name, salary, departmentid) values ('1', 'Joe', '70000', '1');
+insert into employee (id, name, salary, departmentid) values ('2', 'Jim', '90000', '1');
+insert into employee (id, name, salary, departmentid) values ('3', 'Henry', '80000', '2');
+insert into employee (id, name, salary, departmentid) values ('4', 'Sam', '60000', '2');
+insert into employee (id, name, salary, departmentid) values ('5', 'Max', '90000', '1');
+insert into department (id, name) values ('1', 'IT');
+insert into department (id, name) values ('2', 'Sales');

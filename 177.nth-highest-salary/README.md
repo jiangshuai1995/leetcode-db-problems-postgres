@@ -4,7 +4,7 @@ Write a SQL query to get the nth highest salary from the Employee table.
 编写一个 SQL 查询，获取 Employee 表中第 n 高的薪水（Salary）。
 ```
 +----+--------+
-| Id | Salary |
+| id | salary |
 +----+--------+
 | 1  | 100    |
 | 2  | 200    |
