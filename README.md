@@ -17,3 +17,4 @@ Cautions: All table names, field names, and function names are lowercase.
 |185|[Department Top Three Salaries](185.department-top-three-salaries)|Hard|
 |196|[Delete Duplicate Emails](196.delete-duplicate-emails)|Easy|
 |197|[Rising Temperature](197.rising-temperature)|Easy|
+|262|[Trips and Users](262.trips-and-users)|Hard|
