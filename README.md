@@ -15,3 +15,4 @@ Cautions: All table names, field names, and function names are lowercase.
 |183|[Customers Who Never Order](183.customers-who-never-order)|Easy|
 |184|[Department Highest Salary](184.department-highest-salary)|Medium|
 |185|[Department Top Three Salaries](185.department-top-three-salaries)|Hard|
+|196|[Delete Duplicate Emails](196.delete-duplicate-emails)|Easy|
